@@ -125,9 +125,9 @@ class AssistantPanel:
         header.pack(fill="x", pady=(0, 12))
         identity = ttk.Frame(header, style="Surface.TFrame")
         identity.pack(side="left")
-        ttk.Label(identity, text="PCB INTELLIGENCE · BUILT BY NEXT BUILDER", style="Eyebrow.TLabel").pack(
-            anchor="w"
-        )
+        ttk.Label(
+            identity, text="PCB INTELLIGENCE · BUILT BY NEXT BUILDER", style="Eyebrow.TLabel"
+        ).pack(anchor="w")
         line = ttk.Frame(identity, style="Surface.TFrame")
         line.pack(anchor="w", pady=(2, 0))
         ttk.Label(line, text="KiCad Astra", style="Title.TLabel").pack(side="left")
@@ -170,9 +170,9 @@ class AssistantPanel:
             self.buttons[key] = b
         finish = ttk.Frame(outer)
         finish.pack(fill="x", pady=(0, 12))
-        ttk.Label(finish, text="FINISH & FABRICATE", style="Muted.TLabel", font=(FONT, 9, "bold")).pack(
-            side="left", padx=(0, 14)
-        )
+        ttk.Label(
+            finish, text="FINISH & FABRICATE", style="Muted.TLabel", font=(FONT, 9, "bold")
+        ).pack(side="left", padx=(0, 14))
         for key, label, command in [
             ("labels", "Arrange reference labels", self._labels),
             ("manufacture", "Prepare fabrication…", self._manufacture),
@@ -186,9 +186,7 @@ class AssistantPanel:
         panes.add(left, weight=1)
         right = ttk.Frame(panes)
         panes.add(right, weight=4)
-        ttk.Label(left, text="OBJECTIVE", font=(FONT, 10, "bold")).pack(
-            anchor="w", pady=(4, 7)
-        )
+        ttk.Label(left, text="OBJECTIVE", font=(FONT, 10, "bold")).pack(anchor="w", pady=(4, 7))
         self.request = scrolledtext.ScrolledText(
             left,
             width=32,

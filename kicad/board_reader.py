@@ -74,9 +74,7 @@ class KiCadBoardSession:
         if not path.is_absolute():
             project_path = Path(self.board.document.project.path)
             if not project_path.is_absolute():
-                raise RuntimeError(
-                    "Save the board in a KiCad project before starting KiCad Astra."
-                )
+                raise RuntimeError("Save the board in a KiCad project before starting KiCad Astra.")
             path = project_path / path
         return path.resolve()
 
