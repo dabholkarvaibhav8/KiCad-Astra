@@ -1,0 +1,41 @@
+name: KiCad Astra checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  checks:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-dev.txt
+      - name: Install test dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Verify available checks
+        run: python scripts/verify.py
+      - name: Build source archive
+        run: python scripts/build_release.py
+      - name: Preserve results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-astra-${{ matrix.os }}
+          path: |
+            build/verification/
+            dist/kicad-astra-v1.0.0.zip
+          if-no-files-found: warn
+          retention-days: 14

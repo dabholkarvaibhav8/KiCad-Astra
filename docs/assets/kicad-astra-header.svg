@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">KiCad Astra 1.0</title>
+  <desc id="desc">Premium PCB intelligence for KiCad, built by Next Builder</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A13"/>
+      <stop offset="0.55" stop-color="#10192C"/>
+      <stop offset="1" stop-color="#17112C"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="790" y1="60" x2="1210" y2="306" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#64D2FF"/>
+      <stop offset="0.48" stop-color="#0A84FF"/>
+      <stop offset="1" stop-color="#BF5AF2"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(1045 178) rotate(90) scale(240 330)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5E5CE6" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#5E5CE6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
+  <ellipse cx="1045" cy="178" rx="330" ry="240" fill="url(#halo)"/>
+  <g fill="none" stroke="url(#signal)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M816 83h92v51h88v57h96v79h127" stroke-width="5"/>
+    <path d="M790 168h73v71h99v67h124" stroke-width="3" opacity="0.78"/>
+    <path d="M920 58v44h121v48h124" stroke-width="3" opacity="0.62"/>
+    <path d="M1017 307v-73h94v-56h108" stroke-width="4" opacity="0.9"/>
+  </g>
+  <g fill="#0B1020" stroke="url(#signal)" stroke-width="5">
+    <circle cx="816" cy="83" r="10"/><circle cx="996" cy="191" r="10"/>
+    <circle cx="1219" cy="270" r="10"/><circle cx="790" cy="168" r="9"/>
+    <circle cx="1086" cy="306" r="9"/><circle cx="920" cy="58" r="9"/>
+    <circle cx="1165" cy="150" r="9"/><circle cx="1017" cy="307" r="9"/>
+  </g>
+  <rect x="56" y="47" width="236" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.09" stroke="#FFFFFF" stroke-opacity="0.16"/>
+  <circle cx="76" cy="63" r="5" fill="#64D2FF"/>
+  <text x="91" y="68" fill="#DDEBFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="1.8">BUILT BY NEXT BUILDER</text>
+  <text x="52" y="184" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="82" font-weight="700" letter-spacing="-3">KiCad Astra</text>
+  <rect x="540" y="125" width="82" height="34" rx="17" fill="#0A84FF"/>
+  <text x="562" y="148" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">v1.0</text>
+  <text x="57" y="235" fill="#C8D2E4" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="25">PCB intelligence you can inspect, verify, and control.</text>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">
+    <rect x="56" y="279" width="122" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08"/><text x="80" y="301" fill="#EEF4FF">PLACEMENT</text>
+    <rect x="190" y="279" width="100" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08"/><text x="216" y="301" fill="#EEF4FF">ROUTING</text>
+    <rect x="302" y="279" width="118" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08"/><text x="327" y="301" fill="#EEF4FF">LABELLING</text>
+    <rect x="432" y="279" width="164" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08"/><text x="456" y="301" fill="#EEF4FF">FABRICATION PREP</text>
+  </g>
+</svg>

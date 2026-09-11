@@ -1,0 +1,18 @@
+name: Feature proposal
+description: Describe a concrete PCB workflow to improve
+title: "[Feature] "
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Board and engineering problem
+      description: Explain the task, constraints and current workaround.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Observable success criteria
+      description: What board, native check or measured result would demonstrate success?
+    validations:
+      required: true

@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.hypothesis/
+.ruff_cache/
+.coverage*
+build/
+dist/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+kicad-astra-backups/
+kicad-astra-plugin-backups/
+kicad-astra-fabrication-*/
+*.zip
+*.log
+*.kicad_prl
+*.lck
+*~
+demo-session.json
+kicad-astra-session.json
+
+# Generated release checksum manifest
+/SHA256SUMS.json
+# Desktop metadata
+.DS_Store
+Thumbs.db
+desktop.ini

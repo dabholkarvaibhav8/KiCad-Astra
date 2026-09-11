@@ -1,0 +1,5 @@
+openai==2.54.0
+kicad-python==0.8.0
+shapely==2.1.2
+numpy==2.3.5
+jsonschema==4.26.0

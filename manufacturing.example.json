@@ -1,0 +1,17 @@
+{
+  "name": "Generic review profile \u2014 confirm with your fabricator",
+  "copper_layers": [
+    "F.Cu",
+    "B.Cu"
+  ],
+  "board_thickness_mm": 1.6,
+  "min_clearance_mm": 0.2,
+  "min_track_width_mm": 0.25,
+  "min_drill_mm": 0.3,
+  "min_annular_ring_mm": 0.15,
+  "min_edge_clearance_mm": 0.3,
+  "min_silk_height_mm": 1.0,
+  "min_silk_stroke_mm": 0.15,
+  "min_silk_clearance_mm": 0.2,
+  "require_schematic_parity": true
+}

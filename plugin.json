@@ -1,0 +1,28 @@
+{
+  "$schema": "https://go.kicad.org/api/schemas/v1",
+  "identifier": "io.nextbuilder.kicadastra",
+  "name": "KiCad Astra",
+  "description": "Built by Next Builder. Reviewable PCB placement, routing, labelling and manufacturing preparation.",
+  "runtime": {
+    "type": "python",
+    "min_version": "3.11"
+  },
+  "actions": [
+    {
+      "identifier": "open-assistant",
+      "name": "Open KiCad Astra",
+      "description": "Inspect, plan, finish and prepare a PCB through an engineer-reviewed workflow.",
+      "show-button": true,
+      "scopes": [
+        "pcb"
+      ],
+      "entrypoint": "main.py",
+      "icons-light": [
+        "icons/kicad-astra.png"
+      ],
+      "icons-dark": [
+        "icons/kicad-astra.png"
+      ]
+    }
+  ]
+}

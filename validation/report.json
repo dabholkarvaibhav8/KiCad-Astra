@@ -1,0 +1,71 @@
+{
+  "product": "Next Builder (historical development build)",
+  "version": "3.0.0-beta.1 (historical development build before KiCad Astra 1.0 rename)",
+  "recorded_at": "2026-09-11T01:00:23.383145+00:00",
+  "record_type": "observed_separate_development_runs_and_packaging_checks",
+  "development_environment": {
+    "os": "Linux x86-64",
+    "python": "3.12.14",
+    "kicad": "10.0.6",
+    "tk": "9.0 virtual desktop"
+  },
+  "observed_commands": [
+    {
+      "command": "python -m pytest -q (existing suite before finishing additions)",
+      "passed": 75,
+      "skipped": 4,
+      "unittest_subtests_passed": 8
+    },
+    {
+      "command": "python -m pytest -q tests/test_finishing.py",
+      "passed": 20
+    },
+    {
+      "command": "python -m pytest -q tests/test_finishing.py tests/test_integration.py -m \"not gui and not native and not live_api\" (native CLI enabled)",
+      "passed": 22,
+      "deselected": 3,
+      "note": "Includes the same 20 finishing cases; do not double-count."
+    },
+    {
+      "command": "python -m pytest -q tests/test_integration.py -m gui (desktop enabled)",
+      "passed": 1,
+      "deselected": 4
+    },
+    {
+      "command": "python -m ruff format . && python -m ruff check --fix .",
+      "status": "passed_before_final_documentation_edits"
+    }
+  ],
+  "native_assertions": [
+    "Routing reduces unconnected items without new DRC issues",
+    "Anchored cross-net short produces a native error",
+    "Labelled fixture exports with zero DRC items",
+    "0.4 mm track minimum blocks 0.25 mm copper",
+    "2.0 mm text minimum blocks 1.0 mm reference labels",
+    "Ignored DRC checks are reenabled on a copy",
+    "Source board/project hashes are preserved",
+    "Gerber count and fabrication ZIP integrity pass"
+  ],
+  "final_combined_run": {
+    "status": "not_executed",
+    "reason": "Automatic approval review rejected dependency/native-runtime setup because the account usage limit was reached."
+  },
+  "coverage": null,
+  "all_integration_checks_executed": false,
+  "readiness_gate_passed": false,
+  "outstanding": [
+    "Live IPC preview/rollback and manual Apply/Undo",
+    "Live model request",
+    "Real-board schematic/DFM/assembly acceptance",
+    "Windows/macOS/Linux installation discovery",
+    "Hosted GitHub CI execution"
+  ],
+  "packaging_checks": {
+    "python_syntax": true,
+    "json_parse": true,
+    "isolated_install_and_upgrade": true,
+    "deterministic_zip": true,
+    "all_manifest_hashes": true,
+    "required_release_files": true
+  }
+}

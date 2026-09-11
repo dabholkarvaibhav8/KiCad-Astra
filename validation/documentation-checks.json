@@ -1,0 +1,12 @@
+{
+  "product": "KiCad Astra",
+  "version": "1.0.0",
+  "checks": {
+    "python_syntax": "passed",
+    "json_parse": "passed",
+    "local_markdown_paths": 112,
+    "isolated_install_and_upgrade": "passed"
+  },
+  "runtime_tests": "Not rerun for this renamed release: pytest and the previous environment interpreter are unavailable. Historical results in report.json predate the rename and UI changes.",
+  "live_editor_and_api_acceptance": "outstanding"
+}

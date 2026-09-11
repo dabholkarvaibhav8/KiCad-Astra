@@ -1,0 +1,9 @@
+{
+  "height_mm": 1.0,
+  "stroke_mm": 0.15,
+  "clearance_mm": 0.2,
+  "mask_margin_mm": 0.15,
+  "edge_margin_mm": 0.3,
+  "grid_mm": 0.25,
+  "max_offset_mm": 5.0
+}

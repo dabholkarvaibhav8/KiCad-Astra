@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">KiCad Astra</title>
+  <defs>
+    <linearGradient id="bg" x1="6" y1="5" x2="58" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121A31"/><stop offset="1" stop-color="#090B13"/>
+    </linearGradient>
+    <linearGradient id="trace" x1="14" y1="49" x2="52" y2="13" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#64D2FF"/><stop offset="0.52" stop-color="#0A84FF"/><stop offset="1" stop-color="#BF5AF2"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity="0.13"/>
+  <path d="M15 47V29c0-7 5-12 12-12h21" fill="none" stroke="url(#trace)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M25 47V37c0-6 5-11 11-11h12" fill="none" stroke="url(#trace)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="15" cy="48" r="4.5" fill="#64D2FF"/><circle cx="49" cy="17" r="4.5" fill="#BF5AF2"/>
+  <circle cx="49" cy="26" r="4.5" fill="#5E8BFF"/><circle cx="25" cy="48" r="4.5" fill="#0A84FF"/>
+</svg>
